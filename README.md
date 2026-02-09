@@ -1,7 +1,7 @@
 # Simple DHCP for IPMI
 
 This repo contains a tiny DHCP server you can run on your laptop to hand out an IP
-to an IPMI management port connected via Ethernet.
+to an IPMI management port connected via Ethernet. Tiny = VERY SIMPLE
 
 ## Setup
 
@@ -30,3 +30,4 @@ Edit `config.json`:
 
 - This is intentionally minimal and intended for a single device.
 - If you need multiple leases or advanced options, use a full DHCP server.
+
